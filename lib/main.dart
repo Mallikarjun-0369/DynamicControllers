@@ -33,6 +33,8 @@ class _DynamicControllersState extends State<DynamicControllers> {
     super.initState();
     highlights = new List<int>();
     highlights.add(highlightCount);
+    _highlightControllers = new List<TextEditingController>();
+    _highlightController = new TextEditingController();
   }
 
 
